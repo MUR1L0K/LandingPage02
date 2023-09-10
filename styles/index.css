@@ -151,9 +151,6 @@ body {
 #mainContentTwo div:nth-child(even) {
   background-color: var(--button2-color);
 }
-.courses:hover {
-  cursor: pointer;
-}
 .courses img {
   margin: 10px 0px;
 }
@@ -164,6 +161,10 @@ body {
 }
 .arrowImg {
   padding-left: 270px;
+  cursor: pointer;
+}
+.arrowImg:hover {
+  filter: contrast(0.6);
 }
 #secondMainText {
   width: 100%;
